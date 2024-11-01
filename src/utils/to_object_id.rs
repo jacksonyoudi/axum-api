@@ -1,4 +1,4 @@
-use bson::oid::ObjectId;
+use wither::bson::oid::ObjectId;
 
 use crate::errors::Error;
 

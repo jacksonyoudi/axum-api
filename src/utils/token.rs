@@ -1,4 +1,4 @@
-use bson::oid::ObjectId;
+use wither::bson::oid::ObjectId;
 use jsonwebtoken::{errors::Error, DecodingKey, EncodingKey, Header, TokenData, Validation};
 use once_cell::sync::Lazy;
 use serde::{Deserialize, Serialize};
